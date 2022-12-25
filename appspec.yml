@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
-file:
+files:
   - source: /
     destination: /home/ubuntu/github_action
     overwrite: yes
@@ -10,7 +10,6 @@ permissions:
     pattern: "**"
     owner: ubuntu
     group: ubuntu
-
 
 hooks:
   ApplicationStart:
